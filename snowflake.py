@@ -63,10 +63,8 @@ def snowflake(lines):
         newline2 = rs.AddLine(midpt, endpt)
         newline3 = rs.AddLine(midpt, middle1)
         newline4 = rs.AddLine(midpt, middle2)
-        flake.append(newline1)
-        flake.append(newline2)
-        flake.append(newline3)
-        flake.append(newline4)
+        flake.append(newline1, newline2, newline3, newline4)
+    
     return flake
 
 
